@@ -1,0 +1,16 @@
+{
+  "name": "tastyfood1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass styles/styles.scss style.css",
+    "sass-watch": "node-sass styles/styles.scss style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
